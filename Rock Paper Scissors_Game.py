@@ -38,6 +38,9 @@ elif UR_choice == 2:
 print(UR_choice)
 
 Computer_choice = random.randint(0,2)
+if  UR_choice > 2:
+        print(f"Invalid Entry")
+        print("Restart game to play!")
 if Computer_choice == 0 and UR_choice == 0:
         print(f"Computer Choice is Rock "+rock)
         print("It's a draw!")
